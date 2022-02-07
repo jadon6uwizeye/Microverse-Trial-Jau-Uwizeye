@@ -8,6 +8,18 @@
     }
 }
 
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+
 #navbar{
     display: flex;
     justify-content: flex-end;
