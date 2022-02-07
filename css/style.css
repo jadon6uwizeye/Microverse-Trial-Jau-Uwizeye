@@ -1,7 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+
 #welcome-section {
     height: 100vh;
 }
-
 @media screen and (max-width: 600px) {
     #welcome-section {
         height: 100vh;
@@ -9,16 +12,22 @@
 }
 
 @media (max-width: 75em) {
-    html {
-      font-size: 60%;
-    }
+  html {
+    font-size: 60%;
   }
+}
 
-  @media (max-width: 75em) {
-    html {
-      font-size: 60%;
-    }
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
   }
+}
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
 
 #navbar{
     display: flex;
