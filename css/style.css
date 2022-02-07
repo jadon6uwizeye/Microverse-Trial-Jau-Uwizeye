@@ -8,3 +8,15 @@
     }
 }
 
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left : 0
+}
+
+.nnav{
+    display: flex;
+    margin : 2rem;
+}
